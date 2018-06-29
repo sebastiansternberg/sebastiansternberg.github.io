@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sebastiansternberg.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How Cross-Validation Can Go Wrong and What to Do About it</title>
+      <link>https://sebastiansternberg.github.io/publication/cross_validation/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebastiansternberg.github.io/publication/cross_validation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Dynamic Forecasting Model for the 2017 German Federal Election</title>
@@ -18,15 +27,6 @@
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://sebastiansternberg.github.io/publication/pa2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>How Cross-Validation Can Go Wrong and What to Do About it</title>
-      <link>https://sebastiansternberg.github.io/publication/cross_validation/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://sebastiansternberg.github.io/publication/cross_validation/</guid>
       <description></description>
     </item>
     

@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>How Cross-Validation Can Go Wrong and What to Do About it</title>
+      <link>https://sebastiansternberg.github.io/publication/cross_validation/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebastiansternberg.github.io/publication/cross_validation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Dynamic Forecasting Model for the 2017 German Federal Election</title>
       <link>https://sebastiansternberg.github.io/publication/pa2018/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
@@ -36,15 +45,6 @@
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://sebastiansternberg.github.io/publication/value_vagueness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>How Cross-Validation Can Go Wrong and What to Do About it</title>
-      <link>https://sebastiansternberg.github.io/publication/cross_validation/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://sebastiansternberg.github.io/publication/cross_validation/</guid>
       <description></description>
     </item>
     
