@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sebastiansternberg.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An_Empirical_Evaluation_of_DP_GANs_for_Social_Science</title>
+      <link>https://sebastiansternberg.github.io/publication/gans/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebastiansternberg.github.io/publication/gans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Automatic Detection of Vague Language in Court Decisions.</title>
