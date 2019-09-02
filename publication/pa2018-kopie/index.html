@@ -17,10 +17,10 @@
       
     
   
-  <meta name="description" content="Ex ante forecasting approaches become increasingly used to analyze and predict judicial outcomes, reaching impressive forecasting performances. Yet, existing work on the prediction of court decision-making has two important limitations. First, it exclusively focuses on the US Supreme Court. This raises concerns about the external validity of these studies and their implications for courts in different law traditions. Second, none of the existing studies have explicitly tested the relative contribution of legal context versus political context variables to the forecast of court decisions. This study addresses these two points by ex ante predicting over 2,900 proceedings decided by the German Federal Constitutional Court between 1974 and 2010, using only information available prior to the respective decision. The findings show that similar methodological approaches successfully applied to the Supreme Court also work when being applied to a Kelsenian European constitutional court. The results also demonstrate that legal context alone is already a good predictor for the outcome of a case. Most importantly, the predictive performance is significantly improved when information about the political context of a decision is added. These findings are important because they support the view of a multifaceted decision-making of constitutional courts which is best characterized by the ensemble of both legal and political factors.">
+  <meta name="description" content="This paper presents a dynamic Bayesian forecasting model for multi-party elections. Our modeling approach combines data from published pre-election public opinion polls with information from fundamentals-based forecasting models. The model takes care of the multi-party nature of the setting and allows making statements about the probability of certain events, such as the plurality of votes for a party or the majority for coalition options in parliament. We apply this model to forecast the German Federal election 2017. The forecasts of our model are continuously being updated on the platform zweitstimme.org. The value of our approach goes beyond the realms of academia: We equip journalists, political pundits, and ordinary citizens with information that can help to make sense of the parties’ latent support and ultimately making better informed voting decisions">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://sebastiansternberg.github.io/publication/gfcc_prediction/">
+  <link rel="alternate" hreflang="en-us" href="https://sebastiansternberg.github.io/publication/pa2018-kopie/">
 
   
 
@@ -83,7 +83,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://sebastiansternberg.github.io/publication/gfcc_prediction/">
+  <link rel="canonical" href="https://sebastiansternberg.github.io/publication/pa2018-kopie/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -91,20 +91,20 @@
   <meta property="twitter:creator" content="@GFCC_Forecast">
   
   <meta property="og:site_name" content="Sebastian Sternberg">
-  <meta property="og:url" content="https://sebastiansternberg.github.io/publication/gfcc_prediction/">
-  <meta property="og:title" content="How to Forecast Constitutional Court Decisions? Legal Context and Political Context in a Machine Learning Framework | Sebastian Sternberg">
-  <meta property="og:description" content="Ex ante forecasting approaches become increasingly used to analyze and predict judicial outcomes, reaching impressive forecasting performances. Yet, existing work on the prediction of court decision-making has two important limitations. First, it exclusively focuses on the US Supreme Court. This raises concerns about the external validity of these studies and their implications for courts in different law traditions. Second, none of the existing studies have explicitly tested the relative contribution of legal context versus political context variables to the forecast of court decisions. This study addresses these two points by ex ante predicting over 2,900 proceedings decided by the German Federal Constitutional Court between 1974 and 2010, using only information available prior to the respective decision. The findings show that similar methodological approaches successfully applied to the Supreme Court also work when being applied to a Kelsenian European constitutional court. The results also demonstrate that legal context alone is already a good predictor for the outcome of a case. Most importantly, the predictive performance is significantly improved when information about the political context of a decision is added. These findings are important because they support the view of a multifaceted decision-making of constitutional courts which is best characterized by the ensemble of both legal and political factors."><meta property="og:image" content="https://sebastiansternberg.github.io/img/3dideol_pop1-1.png">
+  <meta property="og:url" content="https://sebastiansternberg.github.io/publication/pa2018-kopie/">
+  <meta property="og:title" content="A Dynamic Forecasting Model for the 2017 German Federal Election | Sebastian Sternberg">
+  <meta property="og:description" content="This paper presents a dynamic Bayesian forecasting model for multi-party elections. Our modeling approach combines data from published pre-election public opinion polls with information from fundamentals-based forecasting models. The model takes care of the multi-party nature of the setting and allows making statements about the probability of certain events, such as the plurality of votes for a party or the majority for coalition options in parliament. We apply this model to forecast the German Federal election 2017. The forecasts of our model are continuously being updated on the platform zweitstimme.org. The value of our approach goes beyond the realms of academia: We equip journalists, political pundits, and ordinary citizens with information that can help to make sense of the parties’ latent support and ultimately making better informed voting decisions"><meta property="og:image" content="https://sebastiansternberg.github.io/img/figure1-1.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-02-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2018-06-01T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2018-02-01T00:00:00&#43;00:00">
-  
-
-  
+  <meta property="article:modified_time" content="2018-06-01T00:00:00&#43;00:00">
   
 
-  <title>How to Forecast Constitutional Court Decisions? Legal Context and Political Context in a Machine Learning Framework | Sebastian Sternberg</title>
+  
+  
+
+  <title>A Dynamic Forecasting Model for the 2017 German Federal Election | Sebastian Sternberg</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -262,19 +262,19 @@
 <div class="article-header">
   
   
-    <img src="/img/3dideol_pop1-1.png" class="article-banner" itemprop="image">
+    <img src="/img/figure1-1.png" class="article-banner" itemprop="image">
   
 
-  <span class="article-header-caption">Predictive Effect of ideological distance/popularity Opposition on petitioner&rsquo;s success</span>
+  <span class="article-header-caption">Zweitstimme.org Predictions</span>
 </div>
 
 
 
   <div class="article-container">
-    <h1 itemprop="name">How to Forecast Constitutional Court Decisions? Legal Context and Political Context in a Machine Learning Framework</h1>
+    <h1 itemprop="name">A Dynamic Forecasting Model for the 2017 German Federal Election</h1>
     <span class="pub-authors" itemprop="author">
       
-      Sebastian Sternberg
+      <a href="http://lukas-stoetzer.org/" target="_blank">Lukas Stoetzer</a>, <a href="http://marcel-neunhoeffer.com/" target="_blank">Marcel Neunhoeffer</a>, <a href="http://methods.sowi.uni-mannheim.de/thomas_gschwend/" target="_blank">Thomas Gschwend</a>, <a href="http://simonmunzert.github.io/" target="_blank">Simon Munzert</a>, Sebastian Sternberg
       
     </span>
     <span class="pull-right">
@@ -283,35 +283,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=How%20to%20Forecast%20Constitutional%20Court%20Decisions%3f%20Legal%20Context%20and%20Political%20Context%20in%20a%20Machine%20Learning%20Framework&amp;url=https%3a%2f%2fsebastiansternberg.github.io%2fpublication%2fgfcc_prediction%2f"
+         href="https://twitter.com/intent/tweet?text=A%20Dynamic%20Forecasting%20Model%20for%20the%202017%20German%20Federal%20Election&amp;url=https%3a%2f%2fsebastiansternberg.github.io%2fpublication%2fpa2018-kopie%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsebastiansternberg.github.io%2fpublication%2fgfcc_prediction%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsebastiansternberg.github.io%2fpublication%2fpa2018-kopie%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsebastiansternberg.github.io%2fpublication%2fgfcc_prediction%2f&amp;title=How%20to%20Forecast%20Constitutional%20Court%20Decisions%3f%20Legal%20Context%20and%20Political%20Context%20in%20a%20Machine%20Learning%20Framework"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsebastiansternberg.github.io%2fpublication%2fpa2018-kopie%2f&amp;title=A%20Dynamic%20Forecasting%20Model%20for%20the%202017%20German%20Federal%20Election"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsebastiansternberg.github.io%2fpublication%2fgfcc_prediction%2f&amp;title=How%20to%20Forecast%20Constitutional%20Court%20Decisions%3f%20Legal%20Context%20and%20Political%20Context%20in%20a%20Machine%20Learning%20Framework"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsebastiansternberg.github.io%2fpublication%2fpa2018-kopie%2f&amp;title=A%20Dynamic%20Forecasting%20Model%20for%20the%202017%20German%20Federal%20Election"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=How%20to%20Forecast%20Constitutional%20Court%20Decisions%3f%20Legal%20Context%20and%20Political%20Context%20in%20a%20Machine%20Learning%20Framework&amp;body=https%3a%2f%2fsebastiansternberg.github.io%2fpublication%2fgfcc_prediction%2f">
+         href="mailto:?subject=A%20Dynamic%20Forecasting%20Model%20for%20the%202017%20German%20Federal%20Election&amp;body=https%3a%2f%2fsebastiansternberg.github.io%2fpublication%2fpa2018-kopie%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -325,7 +325,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Ex ante forecasting approaches become increasingly used to analyze and predict judicial outcomes, reaching impressive forecasting performances. Yet, existing work on the prediction of court decision-making has two important limitations. First, it exclusively focuses on the US Supreme Court. This raises concerns about the external validity of these studies and their implications for courts in different law traditions. Second, none of the existing studies have explicitly tested the relative contribution of legal context versus political context variables to the forecast of court decisions. This study addresses these two points by ex ante predicting over 2,900 proceedings decided by the German Federal Constitutional Court between 1974 and 2010, using only information available prior to the respective decision. The findings show that similar methodological approaches successfully applied to the Supreme Court also work when being applied to a Kelsenian European constitutional court. The results also demonstrate that legal context alone is already a good predictor for the outcome of a case. Most importantly, the predictive performance is significantly improved when information about the political context of a decision is added. These findings are important because they support the view of a multifaceted decision-making of constitutional courts which is best characterized by the ensemble of both legal and political factors.</p>
+    <p class="pub-abstract" itemprop="text">This paper presents a dynamic Bayesian forecasting model for multi-party elections. Our modeling approach combines data from published pre-election public opinion polls with information from fundamentals-based forecasting models. The model takes care of the multi-party nature of the setting and allows making statements about the probability of certain events, such as the plurality of votes for a party or the majority for coalition options in parliament. We apply this model to forecast the German Federal election 2017. The forecasts of our model are continuously being updated on the platform zweitstimme.org. The value of our approach goes beyond the realms of academia: We equip journalists, political pundits, and ordinary citizens with information that can help to make sense of the parties’ latent support and ultimately making better informed voting decisions</p>
     
 
     
@@ -336,8 +336,8 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
           <div class="col-xs-12 col-sm-9">
             
-            <a href="https://sebastiansternberg.github.io/publication/#1">
-              Conference paper
+            <a href="https://sebastiansternberg.github.io/publication/#2">
+              Journal article
             </a>
             
           </div>
@@ -354,7 +354,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9"><em>Working Paper</em></div>
+          <div class="col-xs-12 col-sm-9"><em>Political Analysis 2018, Online First View</em></div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -368,7 +368,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            February, 2018
+            June, 2018
           </div>
         </div>
       </div>
@@ -388,16 +388,16 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://sebastiansternberg.github.io/pdf/epsa19_sternberg_forecastingdecisions.pdf" target="_blank" rel="noopener">
-  PDF
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline" href="http://zweitstimme.org/" target="_blank" rel="noopener">
+  Project
 </a>
-
-
-
-
-
-
-
 
 
 
@@ -419,9 +419,6 @@
     <div class="article-style"></div>
 
     
-
-
-
 
 
   </div>
@@ -507,6 +504,13 @@
       <script>hljs.initHighlightingOnLoad();</script>
     
 
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
     
     
 
