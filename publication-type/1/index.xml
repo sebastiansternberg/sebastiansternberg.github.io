@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | Hompage of Sebastian Sternberg</title>
-    <link>https://example.com/publication-type/1/</link>
-      <atom:link href="https://example.com/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>www.sebastiansternberg.github.io/publication-type/1/</link>
+      <atom:link href="www.sebastiansternberg.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/www.sebastiansternberg.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
-      <link>https://example.com/publication-type/1/</link>
+      <link>www.sebastiansternberg.github.io/publication-type/1/</link>
     </image>
     
     <item>
       <title>An example conference paper123</title>
-      <link>https://example.com/publication/example/</link>
+      <link>www.sebastiansternberg.github.io/publication/example/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/example/</guid>
+      <guid>www.sebastiansternberg.github.io/publication/example/</guid>
       <description>&lt;p&gt;title: &amp;ldquo;An example conference 123&amp;rdquo;&lt;/p&gt;
 &lt;h1 id=&#34;authors&#34;&gt;Authors&lt;/h1&gt;
 &lt;h1 id=&#34;if-you-created-a-profile-for-a-user-eg-the-default-admin-user-write-the-username-folder-name-here&#34;&gt;If you created a profile for a user (e.g. the default &lt;code&gt;admin&lt;/code&gt; user), write the username (folder name) here&lt;/h1&gt;
