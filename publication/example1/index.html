@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="Senior Data Scientist // Data Science Translator // Data Science Consultant" />
+  <meta name="description" content="This paper shows how wrongly understood *cross-validation* can lead to reporting wrong performance measures. We demonstrates the serverness of this problem with an experiment and an application to a recently published paper." />
 
   
-  <link rel="alternate" hreflang="en-us" href="www.sebastiansternberg.github.io/publication/" />
+  <link rel="alternate" hreflang="en-us" href="www.sebastiansternberg.github.io/publication/example1/" />
 
   
 
@@ -282,8 +282,6 @@
   
 
   
-    <link rel="alternate" href="www.sebastiansternberg.github.io/publication/index.xml" type="application/rss+xml" title="Hompage of Sebastian Sternberg" />
-  
 
   
     <link rel="manifest" href="www.sebastiansternberg.github.io/manifest.webmanifest" />
@@ -292,7 +290,7 @@
   <link rel="icon" type="image/png" href="/www.sebastiansternberg.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="/www.sebastiansternberg.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="www.sebastiansternberg.github.io/publication/" />
+  <link rel="canonical" href="www.sebastiansternberg.github.io/publication/example1/" />
 
   
   
@@ -309,33 +307,80 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Hompage of Sebastian Sternberg" />
-  <meta property="og:url" content="www.sebastiansternberg.github.io/publication/" />
-  <meta property="og:title" content="Publications | Hompage of Sebastian Sternberg" />
-  <meta property="og:description" content="Senior Data Scientist // Data Science Translator // Data Science Consultant" /><meta property="og:image" content="/www.sebastiansternberg.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" />
+  <meta property="og:url" content="www.sebastiansternberg.github.io/publication/example1/" />
+  <meta property="og:title" content="How Cross-Validation Can Go Wrong and What to Do About it | Hompage of Sebastian Sternberg" />
+  <meta property="og:description" content="This paper shows how wrongly understood *cross-validation* can lead to reporting wrong performance measures. We demonstrates the serverness of this problem with an experiment and an application to a recently published paper." /><meta property="og:image" content="/www.sebastiansternberg.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" />
     <meta property="twitter:image" content="/www.sebastiansternberg.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2018-06-28T00:00:00&#43;00:00" />
+      <meta
+        property="article:published_time"
+        content="2017-01-01T00:00:00&#43;00:00"
+      />
     
+    <meta property="article:modified_time" content="2018-06-28T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "www.sebastiansternberg.github.io/publication/example1/"
+  },
+  "headline": "How Cross-Validation Can Go Wrong and What to Do About it",
+  
+  "datePublished": "2017-01-01T00:00:00Z",
+  "dateModified": "2018-06-28T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Dr. Sebastian Sternberg"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hompage of Sebastian Sternberg",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/www.sebastiansternberg.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "This paper shows how wrongly understood *cross-validation* can lead to reporting wrong performance measures. We demonstrates the serverness of this problem with an experiment and an application to a recently published paper."
+}
+</script>
+
+  
+
+  
+
   
 
   
 
 
 
-  
-
-  
 
 
-
-
-
-  <title>Publications | Hompage of Sebastian Sternberg</title>
+  <title>How Cross-Validation Can Go Wrong and What to Do About it | Hompage of Sebastian Sternberg</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3a079e7dad19be978a318345a7749d34" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3779ce2a2cb12c0d9925e86493e8ce66" >
 
   
   
@@ -673,6 +718,17 @@
 
 
 
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
 
 
 
@@ -681,117 +737,81 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1>How Cross-Validation Can Go Wrong and What to Do About it</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Publications</h1>
-
-  
-
-  
-</div>
 
 
-
-<div class="universal-wrapper">
-  <div class="row">
-    <div class="col-lg-12">
-
-      
-
-      
-      
-        
-        
-      
-        
-        
-      
-
-      <div class="form-row mb-4">
-        <div class="col-auto">
-          <input type="search" class="filter-search" placeholder="Search..." autocapitalize="off"
-          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
-        </div>
-        <div class="col-auto">
-          <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
-            <option value="*">Type</option>
-            
-            
-            <option value=".pubtype-1">
-              Conference paper
-            </option>
-            
-            <option value=".pubtype-2">
-              Journal article
-            </option>
-            
-          </select>
-        </div>
-        <div class="col-auto">
-          <select class="pub-filters form-control form-control-sm" data-filter-group="year">
-            <option value="*">Date</option>
-            
-            
-            
-            <option value=".year-2018">
-              2018
-            </option>
-            
-            <option value=".year-2013">
-              2013
-            </option>
-            
-            
-          </select>
-        </div>
-      </div>
-
-      <div id="container-publications">
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2018">
-          
-            
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+<div class="article-metadata">
 
   
   
-
-  <span class="article-metadata li-cite-author">
+  
+  
+  <div>
     
 
   <span >
       Dr. Sebastian Sternberg</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
       Marcel Neunhoeffer</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    June 2018
   </span>
-  (2018).
-  <a href="www.sebastiansternberg.github.io/publication/example1/">How Cross-Validation Can Go Wrong and What to Do About it</a>.
-  Political Analysis 2019, Vol. 27 101-106.
   
-  <p>
-
-
-
-
-
-
-
 
   
 
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
 
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
         data-filename="/www.sebastiansternberg.github.io/publication/example1/cite.bib">
   Cite
 </a>
@@ -809,92 +829,300 @@
 
 
 
-</p>
 
-  
+</div>
+
+
   
 </div>
 
-          
-        </div>
 
-        
 
-        
-          
-        
+  <div class="article-container">
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2013">
-          
-            
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">The introduction of new ``machine learning'' methods and terminology to political science complicates the interpretation of results. Even more so, when one term &ndash; like cross-validation &ndash; can mean very different things. We find different meanings of cross-validation in applied political science work. In the context of predictive modeling, cross-validation can be used to obtain an estimate of true error or as a procedure for model tuning. Using a single cross-validation procedure to obtain an estimate of the true error and for model tuning at the same time leads to serious misreporting of performance measures. We demonstrate the severe consequences of this problem with a series of experiments. We also observe this problematic usage of cross-validation in applied research. We look at Muchlinski et al. 2016 on the prediction of civil war onsets to illustrate how the problematic cross-validation can affect applied work. Applying cross-validation correctly, we are unable to reproduce their findings. We encourage researchers in predictive modeling to be especially mindful when applying cross-validation.</p>
     
 
-  <span >
-      Dr. Sebastian Sternberg</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Marcel Neunhoeffer</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
-  </span>
-  (2013).
-  <a href="www.sebastiansternberg.github.io/publication/example/">Test</a>.
-  In <em>ICW</em>.
-  
-  <p>
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="www.sebastiansternberg.github.io/publication/#2">
+              Journal article
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Political Analysis 2019, Vol. 27 101-106</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    <div class="space-below"></div>
 
-
-
-
-
-
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/www.sebastiansternberg.github.io/publication/example/example.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/www.sebastiansternberg.github.io/publication/example/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
+    <div class="article-style"><div class="alert alert-note">
+  <div>
+    Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  </div>
+</div>
+<div class="alert alert-note">
+  <div>
+    Create your slides in Markdown - click the <em>Slides</em> button to check out the example.
+  </div>
+</div>
+<p>Supplementary notes can be added here, including <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">code, math, and images</a>.</p>
 </div>
 
-          
-        </div>
+    
 
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
         
-      </div>
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=www.sebastiansternberg.github.io/publication/example1/&amp;text=How%20Cross-Validation%20Can%20Go%20Wrong%20and%20What%20to%20Do%20About%20it" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=www.sebastiansternberg.github.io/publication/example1/&amp;t=How%20Cross-Validation%20Can%20Go%20Wrong%20and%20What%20to%20Do%20About%20it" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=How%20Cross-Validation%20Can%20Go%20Wrong%20and%20What%20to%20Do%20About%20it&amp;body=www.sebastiansternberg.github.io/publication/example1/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=www.sebastiansternberg.github.io/publication/example1/&amp;title=How%20Cross-Validation%20Can%20Go%20Wrong%20and%20What%20to%20Do%20About%20it" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=How%20Cross-Validation%20Can%20Go%20Wrong%20and%20What%20to%20Do%20About%20it%20www.sebastiansternberg.github.io/publication/example1/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=www.sebastiansternberg.github.io/publication/example1/&amp;title=How%20Cross-Validation%20Can%20Go%20Wrong%20and%20What%20to%20Do%20About%20it" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="www.sebastiansternberg.github.io"><img class="avatar mr-3 avatar-circle" src="/www.sebastiansternberg.github.io/authors/admin/avatar_hu670798339d1d323164eab936198fad62_261788_270x270_fill_q75_lanczos_center.jpg" alt="Dr. Sebastian Sternberg"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="www.sebastiansternberg.github.io">Dr. Sebastian Sternberg</a></h5>
+      <h6 class="card-subtitle">Senior Data Scientist // Data Science Translator // Data Science Consultant</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/www.sebastiansternberg.github.io/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/GFCC_Forecast" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/sebastiansternberg" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://de.linkedin.com/in/sebastian-sternberg-4b4268b9" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
 
     </div>
+  </div>
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
   </div>
 </div>
   </div>
