@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 | Academic</title>
-    <link>https://example.com/publication-type/2/</link>
-      <atom:link href="https://example.com/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <title>2 | Hompage of Sebastian Sternberg</title>
+    <link>www.sebastiansternberg.github.io/publication-type/2/</link>
+      <atom:link href="www.sebastiansternberg.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/www.sebastiansternberg.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
-      <link>https://example.com/publication-type/2/</link>
+      <link>www.sebastiansternberg.github.io/publication-type/2/</link>
     </image>
     
     <item>
       <title>How Cross-Validation Can Go Wrong and What to Do About it</title>
-      <link>https://example.com/publication/pa_cross_validation/</link>
+      <link>www.sebastiansternberg.github.io/publication/pa_cross_validation/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/pa_cross_validation/</guid>
+      <guid>www.sebastiansternberg.github.io/publication/pa_cross_validation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Die Besetzung des Bundesverfassungsgerichts. Ein Spiegelbild gesellschaftlicher Präferenzen?</title>
-      <link>https://example.com/publication/pvs_discrete_choice/</link>
+      <link>www.sebastiansternberg.github.io/publication/pvs_discrete_choice/</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/pvs_discrete_choice/</guid>
+      <guid>www.sebastiansternberg.github.io/publication/pvs_discrete_choice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Dynamic Forecasting Model for the 2017 German Federal Election</title>
-      <link>https://example.com/publication/zweitstimme_pa/</link>
+      <link>www.sebastiansternberg.github.io/publication/zweitstimme_pa/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/zweitstimme_pa/</guid>
+      <guid>www.sebastiansternberg.github.io/publication/zweitstimme_pa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zum Einfluss der Parteinähe auf das Abstimmungsverhalten der Bundesverfassungsrichter - eine quantitative Untersuchung</title>
-      <link>https://example.com/publication/jz/</link>
+      <link>www.sebastiansternberg.github.io/publication/jz/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/jz/</guid>
+      <guid>www.sebastiansternberg.github.io/publication/jz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zweitstimme.org. Ein strukturell-dynamisches Vorhersagemodell für Bundestagswahlen</title>
-      <link>https://example.com/publication/zweitstimme_pvs/</link>
+      <link>www.sebastiansternberg.github.io/publication/zweitstimme_pvs/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/zweitstimme_pvs/</guid>
+      <guid>www.sebastiansternberg.github.io/publication/zweitstimme_pvs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zum Einfluss der öffentlichen Meinung auf Entscheidungen des Bundesverfassungsgerichts: Eine Analyse von abstrakten Normenkontrollen sowie Bund-Länder-Streitigkeiten 1974–2010</title>
-      <link>https://example.com/publication/pvs_ba_arbeit/</link>
+      <link>www.sebastiansternberg.github.io/publication/pvs_ba_arbeit/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/pvs_ba_arbeit/</guid>
+      <guid>www.sebastiansternberg.github.io/publication/pvs_ba_arbeit/</guid>
       <description></description>
     </item>
     
