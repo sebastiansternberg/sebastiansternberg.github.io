@@ -29,6 +29,30 @@
     </item>
     
     <item>
+      <title>How to Forecast Constitutional Court Decisions? Legal and Political Context in a Machine Learning Application</title>
+      <link>www.sebastiansternberg.github.io/publication/gfcc_forecasting/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>www.sebastiansternberg.github.io/publication/gfcc_forecasting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Empirical Evaluation of DP GANs for Social Science</title>
+      <link>www.sebastiansternberg.github.io/publication/gan_paper/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>www.sebastiansternberg.github.io/publication/gan_paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Die Besetzung des Bundesverfassungsgerichts. Ein Spiegelbild gesellschaftlicher Präferenzen?</title>
+      <link>www.sebastiansternberg.github.io/publication/pvs_discrete_choice/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>www.sebastiansternberg.github.io/publication/pvs_discrete_choice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Dynamic Forecasting Model for the 2017 German Federal Election</title>
       <link>www.sebastiansternberg.github.io/publication/zweitstimme_pa/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
@@ -58,25 +82,6 @@
       <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
       <guid>www.sebastiansternberg.github.io/publication/pvs_ba_arbeit/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>www.sebastiansternberg.github.io/publication/example/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>www.sebastiansternberg.github.io/publication/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
