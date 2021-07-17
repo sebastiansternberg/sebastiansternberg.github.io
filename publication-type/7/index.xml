@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>7 | Academic</title>
-    <link>https://example.com/publication-type/7/</link>
-      <atom:link href="https://example.com/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
+    <title>7 | Hompage of Sebastian Sternberg</title>
+    <link>www.sebastiansternberg.github.io/publication-type/7/</link>
+      <atom:link href="www.sebastiansternberg.github.io/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
     <description>7</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/www.sebastiansternberg.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>7</title>
-      <link>https://example.com/publication-type/7/</link>
+      <link>www.sebastiansternberg.github.io/publication-type/7/</link>
     </image>
     
     <item>
       <title>Automatic Detection of Vague Language in Court Decisions</title>
-      <link>https://example.com/publication/vagueness/</link>
+      <link>www.sebastiansternberg.github.io/publication/vagueness/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/vagueness/</guid>
+      <guid>www.sebastiansternberg.github.io/publication/vagueness/</guid>
       <description></description>
     </item>
     
